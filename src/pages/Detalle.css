@@ -1,0 +1,91 @@
+.estado-msg {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 12px;
+}
+
+.estado-msg.error {
+  color: #b91c1c;
+}
+
+.volver {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.volver:hover {
+  text-decoration: underline;
+}
+
+.perfil-card {
+  border: 1px solid #cdcdcd;
+  border-radius: 12px;
+  padding: 28px 24px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.perfil-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #3d3bcc;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+}
+
+.perfil-card h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.perfil-id {
+  font-size: 13px;
+  color: #878787;
+  margin-bottom: 20px;
+}
+
+.perfil-datos {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid #fefefe;
+  padding-top: 16px;
+}
+
+.dato-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dato-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888888;
+}
+
+.dato-item span:last-child {
+  font-size: 14px;
+  color: #141312;
+}
+
+.pagina-detalle {
+  background: #3d3bcc;
+  border: none;
+  border-radius: 12px;
+  padding: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}

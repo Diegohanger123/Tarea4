@@ -1,0 +1,46 @@
+.pagina {
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 12px;
+  padding: 28px 24px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.pagina h2 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.pagina p {
+  font-size: 14px;
+  color: #676767;
+  margin-bottom: 16px;
+}
+
+.form-buscar {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buscar input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-buscar button {
+  padding: 8px 20px;
+  background: #3d3bcc;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form-buscar button:hover {
+  background: #302faa;
+}
