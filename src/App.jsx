@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Tarea4">
       <Navbar />
       <div className="contenido">
         <Routes>
